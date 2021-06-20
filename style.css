@@ -1,0 +1,75 @@
+.calc-body{
+    width: 50%;
+
+    border: 2px solid rgba(238, 238, 238, 0.863);
+    margin: 5% auto;
+    padding: 1%;
+}
+#input-bar-div{
+}
+#input-bar{
+    border: 2px solid rgb(222,104,52);
+    width: 95.75%;
+    margin: 1.5%;
+    font-size: 2.5em;
+    padding: 2% 0%;
+}
+#input-bar:focus{
+    outline: none;
+}
+.operation-pad{
+    width: 100%;
+    /* border: 2px solid #ff65d9; */
+}
+.operators{
+    width: 21.25%;
+    margin: 1.5% 1.5%;
+    padding: 2% 8%;
+    background-color: rgb(222,104,52);
+    border: solid rgb(222,104,52);
+    color: white;
+    font-size: 1.5em;
+}
+.operators:hover{
+    background-color: rgb(226, 138, 101);
+    color: whitesmoke;
+}
+.num-pad{
+    width: 75%;
+    position: relative;
+    /* border: 2px solid purple; */
+}
+.numerals{
+    margin: 1.5% 2.05%;
+    padding: 3% 8%;
+    width: 28.25%;
+    font-size: 1em;
+    /* border:1px solid black; */
+    /* background-color: white; */
+}
+.numerals:hover{
+    /* background-color: rgb(235, 235, 235); */
+}
+#equals-btn-div{
+    height: 99.75%;
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: -33.6%;
+    top: 0.75%;
+    width: 32.5%;
+}
+.equals-btn{ 
+    width: 86%;
+    height: 94.5%;
+    margin: 1.5% 7%;
+    font-size: 1.5em;
+    border:1px solid rgb(247, 215, 199);
+    background-color: rgb(247, 215, 199);
+    position: relative;
+    top: 2%;
+    left: -2.75%;
+}
+.equals-btn:hover{
+    background-color: rgb(243, 198, 175);
+}
