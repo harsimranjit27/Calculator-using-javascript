@@ -1,5 +1,12 @@
+.heading{
+    text-align: center;
+    font-size: 3em;
+    color:  rgb(222,104,52);
+    text-decoration: underline;
+    font-style: italic;
+}
 .calc-body{
-    width: 50%;
+    width: 40%;
 
     border: 2px solid rgba(238, 238, 238, 0.863);
     margin: 5% auto;
@@ -7,15 +14,18 @@
 }
 #input-bar-div{
 }
-#input-bar{
+#inputBar{
     border: 2px solid rgb(222,104,52);
     width: 95.75%;
     margin: 1.5%;
     font-size: 2.5em;
     padding: 2% 0%;
+    direction: ltr;
+    text-align: right;
 }
 #input-bar:focus{
     outline: none;
+    text-align: right;
 }
 .operation-pad{
     width: 100%;
@@ -24,9 +34,9 @@
 .operators{
     width: 21.25%;
     margin: 1.5% 1.5%;
-    padding: 2% 8%;
+    padding: 2% 6%;
     background-color: rgb(222,104,52);
-    border: solid rgb(222,104,52);
+    border: none;
     color: white;
     font-size: 1.5em;
 }
@@ -40,10 +50,10 @@
     /* border: 2px solid purple; */
 }
 .numerals{
-    margin: 1.5% 2.05%;
-    padding: 3% 8%;
+    margin: 1.75% 2.05%;
+    padding: 2% 6%;
     width: 28.25%;
-    font-size: 1em;
+    font-size: 1.5em;
     /* border:1px solid black; */
     /* background-color: white; */
 }
@@ -66,10 +76,22 @@
     font-size: 1.5em;
     border:1px solid rgb(247, 215, 199);
     background-color: rgb(247, 215, 199);
+    color: rgb(226, 138, 101);
     position: relative;
     top: 2%;
     left: -2.75%;
 }
 .equals-btn:hover{
     background-color: rgb(243, 198, 175);
+}
+@media (max-width: 768px){
+    .operators{
+        width: 20.6%;
+        margin: 1.5% 1.5%;
+        padding: 2% 6%;
+    }
+    .numerals{
+        padding: 2% 8%;
+        width: 27.5%;
+    } 
 }
