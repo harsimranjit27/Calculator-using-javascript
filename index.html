@@ -6,22 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="jQuery.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 </head>
 
 <body>
     <div id="container">
-        <h1>Calculator</h1>
+        <h1 class="heading">Calculator</h1>
         <div class="calc-body">
             <div class="input-bar-div">
-                <input type="text" name="" id="input-bar" data-input>
+                <input type="text" name="" id="inputBar" data-input>
             </div>
             <div class="operation-pad">
-                <button class="operators"   data-operator>+</button>
-                <button class="operators"   data-operator>–</button>
-                <button class="operators"   data-operator>×</button>
-                <button class="operators"   data-operator>÷</button>
+                <button id="+" class="operators"   data-operator>+</button>
+                <button id="-" class="operators"   data-operator>-</button>
+                <button id="x" class="operators"   data-operator>×</button>
+                <button id="/" class="operators"   data-operator>÷</button>
             </div>
             <div class="num-pad">
 
@@ -43,15 +42,14 @@
                 <div id="num-pad-4">
                     <button class="numerals"   id="0" data-number>0</button>
                     <button class="numerals"   id="decimal" data-number>.</button>
-                    <button class="numerals"   id="clear" data-clear>C</button>
+                    <button class="numerals"   id="clear">C</button>
                 </div>
                 <div id="equals-btn-div">
-                    <button class="equals-btn"    data-equal> = </button>
+                    <button class="equals-btn"    data-equal>=</button>
                 </div>
             </div>
         </div>
     </div>
 </body>
-
-
+<script src="main.js"></script>
 </html>
