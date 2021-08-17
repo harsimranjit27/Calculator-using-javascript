@@ -7,9 +7,8 @@
 }
 .calc-body{
     width: 40%;
-
     border: 2px solid rgba(238, 238, 238, 0.863);
-    margin: 5% auto;
+    margin: 4.5% auto;
     padding: 1%;
 }
 #input-bar-div{
@@ -20,7 +19,7 @@
     margin: 1.5%;
     font-size: 2.5em;
     padding: 2% 0%;
-    direction: ltr;
+    /* direction: ltr; */
     text-align: right;
 }
 #input-bar:focus{
